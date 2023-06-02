@@ -41,13 +41,12 @@
 
 
 function check(arr) {
-    for (let i = 0; i < arr.length/2; i++) {
-        for (let y = arr.length-1; y > arr.length/2; i--) {
+    for (let i = 0; i < arr.length/2; i++)
+    for (let y = arr.length-1; y > arr.length/2; y--)
             console.log(arr[i])
             console.log(arr[y])
             
-        }
-    }
-}
+    
+};
 
 console.log(check([1,2,3,4,5,6,7]))
