@@ -20,9 +20,9 @@ function test(par1, par2) {
     let y = {};
 
     for (let i = 0; i < par1.length; i++) {
-        y.push(par1)
+        y.push(par1), i;
     }
 }
 
-console.log(test('test', 'rest'))
+console.log(test('test', 'rest'));
 
