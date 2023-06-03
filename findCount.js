@@ -15,6 +15,8 @@
 function countOfCharcts(arr) {
             let y = {}
             for (let i = 0; i < arr.length; i++) {
-                if (arr[i] == y )
+                if (arr[i] == y )  {
+                    
+                }
             }
 }
