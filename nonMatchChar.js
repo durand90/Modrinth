@@ -22,7 +22,7 @@ function nonMatchChar(str) {
     }
 
         
-    }
+    } return p;
     
 
     
