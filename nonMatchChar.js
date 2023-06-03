@@ -16,10 +16,10 @@ function nonMatchChar(str) {
     for (let key in letter){
     // console.log(`${letter[key]}`);
     
-    if (letter[key] > 2) {
+    if (letter[key] < 2) {
         p.push(key)
-        console.log(p)
     }
+    console.log(p)
 
         
     } return p;
