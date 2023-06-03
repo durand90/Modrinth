@@ -16,13 +16,14 @@
 
 
 
-function test(par1, par2) {
-    let y = {};
+function test(par) {
+    letter = {}
 
-    for (let i = 0; i < par1.length; i++) {
-        y.push(par1), i;
+    for (let i = 0; i < par.length; i++) {
+
+       letter = letter.push(i)
+        return letter;
     }
 }
 
-console.log(test('test', 'rest'));
-
+console.log(test([1,2,3,4]));
