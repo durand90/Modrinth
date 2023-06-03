@@ -12,6 +12,9 @@
 // console.log(y)
 
 
-function countOfCharcts() {
-
+function countOfCharcts(arr) {
+            let y = {}
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] == y )
+            }
 }
