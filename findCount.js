@@ -10,7 +10,7 @@ function findCount(str) {
         } else if (!paper[i]) {
             paper[i] = 1;
         }
-    } return paper;
+    } return paper;fg
 }
 
 console.log(findCount('str about this ok for'))

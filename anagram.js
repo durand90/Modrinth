@@ -50,3 +50,5 @@ function test(par1, par2) {
 
 
 console.log(test('sam', 'mus'));
+
+
