@@ -59,4 +59,4 @@ if (isArray(n)) {
 
 }
 
-console.log(test[1,2,3,4])c
+console.log(test[1,2,3,4])
